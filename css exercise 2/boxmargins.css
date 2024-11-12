@@ -1,0 +1,109 @@
+.square1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+}
+
+.square2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+}
+
+.square3 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.square4 {
+    margin-top: -302px;
+    transform: translateX(100px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+}
+
+.square5 {
+
+    transform: translateX(100px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+}
+
+.square6 {
+    transform: translateX(100px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.square7 {
+    margin-top: -302px;
+    transform: translateX(200px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.square8 {
+    transform: translateX(200px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.square9 {
+    transform: translateX(200px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+body {
+    width: 300px;
+    margin: 100px auto;
+}
