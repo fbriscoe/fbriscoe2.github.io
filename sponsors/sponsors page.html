@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsor Logos</title>
+    <style>
+        body {
+            background-color: #a9a9a9;
+            /* Light gray for better contrast */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .sponsors-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 columns per row */
+            gap: 30px;
+            /* Spacing between logos */
+            width: 90%;
+            max-width: 1200px;
+            padding: 20px;
+            justify-content: center;
+            /* Center grid items horizontally */
+
+        }
+
+        .sponsors-container img {
+            max-width: 100%;
+            max-height: 150px;
+            /* Adjust for consistent height */
+            object-fit: contain;
+            /* Prevent distortion */
+            display: block;
+            /* Ensure images behave like block elements */
+            margin: 0 auto;
+            /* Center horizontally in the grid cells */
+        }
+
+        .sponsors-container img:hover {
+            transform: scale(1.1);
+            /* Slight zoom on hover */
+        }
+
+        .title {
+            font-family: monospace;
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">SPONSORS</h1>
+    <div class="sponsors-container">
+        <img src="sunshine.png" alt="Sunshine Snacks">
+        <img src="camel.png" alt="Camel Brand">
+        <img src="twistees.png" alt="Twistees">
+        <img src="canon.png" alt="Canon">
+        <img src="freehour.png" alt="FreeHour">
+        <img src="cola.png" alt="Coca-Cola">
+    </div>
+</body>
+
+</html>
